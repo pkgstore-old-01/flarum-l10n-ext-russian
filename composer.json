@@ -2,7 +2,7 @@
   "name": "marketplace/flarum-l10n-ext-russian",
   "description": "Flarum Extensions Russian language pack.",
   "type": "flarum-extension",
-  "license": "GPL-3.0-or-later",
+  "license": "MIT",
   "homepage": "https://github.com/marketplace-flarum",
   "keywords": [
     "extension",
@@ -15,34 +15,36 @@
   ],
   "authors": [
     {
-      "name": "z1729 Factory",
-      "email": "z1729.factory@gmail.com",
-      "homepage": "https://z1729.com",
-      "role": "Developer"
-    },
-    {
       "name": "Kitsune Solar",
       "email": "kitsune.solar@gmail.com",
       "homepage": "https://kitsune.solar",
-      "role": "Editor"
+      "role": "Translator"
     },
     {
       "name": "towuk118",
       "homepage": "https://vk.com/towuk118",
-      "role": "Editor"
+      "role": "Translator"
     },
     {
       "name": "dexif",
       "homepage": "https://spitsyn.net/",
-      "role": "Editor"
+      "role": "Translator"
     }
   ],
   "support": {
+    "source": "https://github.com/marketplace-flarum/flarum-l10n-ext-russian",
     "issues": "https://github.com/marketplace-flarum/flarum-l10n-ext-russian/issues",
-    "source": "https://github.com/marketplace-flarum/flarum-l10n-ext-russian"
+    "docs": "https://github.com/marketplace-flarum/flarum-l10n-ext-russian/blob/main/README.md",
+    "forum": "https://discuss.flarum.org/d/1545"
   },
+  "funding": [
+    {
+      "type": "website",
+      "url": "https://donation-form.github.io/"
+    }
+  ],
   "require": {
-    "flarum/core": "^0.1.0-beta.13"
+    "flarum/core": "^0.1.0-beta.15"
   },
   "suggest": {
     "marketplace/flarum-l10n-core-russian": "Flarum Russian language pack.",
@@ -68,12 +70,20 @@
   "extra": {
     "flarum-extension": {
       "title": "Русский (EXT)",
+      "info": {
+        "donate": "https://donation-form.github.io/",
+        "website": "https://github.com/marketplace-flarum",
+        "support": "https://discuss.flarum.org/d/1545"
+      },
       "icon": {
         "image": "icon.svg",
-        "backgroundColor": "#f3f6f9",
+        "backgroundColor": "#ffffff",
         "backgroundSize": "cover",
         "backgroundPosition": "center"
       }
+    },
+    "flagrow": {
+      "discuss": "https://discuss.flarum.org/d/1545"
     },
     "flarum-locale": {
       "code": "ru",
