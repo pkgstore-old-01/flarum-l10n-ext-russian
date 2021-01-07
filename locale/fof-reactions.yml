@@ -13,7 +13,7 @@ fof-reactions:
   admin:
     permissions:
         react_posts_label: "Реагировать на сообщения"
-        see_reactions_label: "Смотреть, кто реагировал на сообщения"
+        see_reactions_label: "Смотреть список, кто реагировал на сообщения"
 
     page:
       reactions:
