@@ -47,25 +47,8 @@
     "flarum/core": "^0.1.0-beta.15"
   },
   "suggest": {
-    "marketplace/flarum-l10n-core-russian": "Flarum Russian language pack.",
-    "fof/drafts": "Drafts",
-    "fof/follow-tags": "Follow Tags",
-    "fof/masquerade": "Masquerade",
-    "fof/recaptcha": "reCAPTCHA",
-    "fof/subscribed": "Subscribed",
-    "fof/auth-discord": "Discord Login",
-    "fof/byobu": "Byōbu",
-    "fof/ignore-users": "Ignore Users",
-    "fof/polls": "Polls",
-    "fof/user-directory": "User Directory",
-    "fof/username-request": "Username Request",
-    "fof/nightmode": "Night Mode",
-    "fof/merge-discussions": "Merge Discussions",
-    "fof/prevent-necrobumping": "Prevent Necrobumping",
-    "zerosonesfun/announce": "Announce",
-    "clarkwinkelmann/flarum-ext-post-date": "Change post date",
-    "fof/ban-ips": "Ban IPs",
-    "fof/reactions": "Reactions"
+    "flarum/flarum": "Flarum",
+    "marketplace/flarum-l10n-core-russian": "Flarum Russian language pack."
   },
   "extra": {
     "flarum-extension": {
