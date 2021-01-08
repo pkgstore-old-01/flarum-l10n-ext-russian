@@ -19,7 +19,7 @@ fof-reactions:
       reactions:
         title: "Пользовательские реакции"
         reactions: "Текущие реакции"
-        Helptext: "Введите имя (идентификатор) значка emoji или иконки Font Awesome и выберете тип."
+        Helptext: "Введите имя (идентификатор) значка EMOJI или иконки Font Awesome и выберете тип."
         help:
           display: "Отображение"
           identifier: "Идентификатор"
