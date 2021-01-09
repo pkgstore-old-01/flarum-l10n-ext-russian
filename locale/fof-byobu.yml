@@ -6,7 +6,7 @@ fof-byobu:
         buttons:
             add_recipients: "Участники"
             submit: "ОК"
-            edit_recipients: "Редактировать участников"
+            edit_recipients: "Изменить участников"
             send_pd: "Отправить сообщение для {username}"
             cancel: "Отмена"
             remove_from_discussion: "Выйти из переписки"
