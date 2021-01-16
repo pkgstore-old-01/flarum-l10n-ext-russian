@@ -26,7 +26,7 @@ fof-byobu:
                 groups: "Доступные группы"
         modal:
             titles:
-                update_recipients: "Обновить участников в {title}"
+                update_recipients: "Обновление участников в {title}"
                 add_recipients: "Добавить участников в свою переписку"
             help:
                 add_recipients: "Эта дискуссия будет видна только выбранным Вами участникам. Требуется как минимум 1 участник (кроме Вас)."
