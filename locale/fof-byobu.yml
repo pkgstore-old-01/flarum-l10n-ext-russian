@@ -7,7 +7,7 @@ fof-byobu:
             add_recipients: "Участники"
             submit: "ОК"
             edit_recipients: "Изменить участников"
-            send_pd: "Отправить сообщение для {username}"
+            send_pd: "Переписка"
             cancel: "Отмена"
             remove_from_discussion: "Выйти из переписки"
         composer_private_discussion:
