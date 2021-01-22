@@ -1,36 +1,36 @@
 askvortsov-trust-levels:
   admin:
     range_drivers:
-      discussions_entered: Discussions Entered
-      discussions_participated: Discussions Participated
-      discussions_started: Discussions Started
-      posts_made: Posts Made
-      likes_given: Likes Given
+      discussions_entered: "Читал(а) дискуссий"
+      discussions_participated: "Участвовал(а) в дискуссиях"
+      discussions_started: "Создал(а) дискуссий"
+      posts_made: "Создал(а) сообщений"
+      likes_given: "Получил(а) симпатий"
     group_selector:
-      placeholder: Select a group
+      placeholder: "Выберите группу..."
     trust_level_modal:
-      title: Create Trust Level
-      name_label: Name
-      name_placeholder: Trust Level Name
-      group_label: Group
+      title: "Создание уровня доверия"
+      name_label: "Название"
+      name_placeholder: "Введите название уровня доверия..."
+      group_label: "Группа"
       submit_button: => core.ref.save_changes
-      delete_button: Delete Trust Level
-      delete_confirmation: Are you sure you want to delete this trust level? The trust level's group will not be revoked from users who have received it.
+      delete_button: "Удалить"
+      delete_confirmation: "Вы уверены, что хотите удалить уровень доверия? Группа уровня доверия не будет отозвана у пользователей."
     trust_level_page:
-      list_heading: Trust Levels
-      create_trust_level_button: Create New Trust Level
-      instructions_header: Instructions
+      list_heading: "Уровни доверия"
+      create_trust_level_button: "Создать"
+      instructions_header: "Описание"
       instructions_text: |
-        <li>Trust levels allow you to automatically manage group membership based on users' activity.</li>
-        <li>Each trust level defines criteria that must be met (e.g. discussions started, posts made, etc), and a group.</li>
-        <li>Users are automatically added to groups for all the trust levels that they qualify for when they log in.</li>
-        <li>Since these groups are managed automatically, we recommend maintaining a separate set of groups for trust levels.</li>
-        <li>If you delete a trust level, you should also delete the associated group; otherwise, users in that trust level will remain in that group.</li>
-        <li>To prevent errors, you cannot update a trust level's group after it has been created.</li>
-        <li>Any ranges left disabled will not be counted. If all ranges are disabled for a given trust level, ALL users will receive that level.</li>
-        <li>If a group is managed by multiple trust levels, the user will be added to the group as long as they are in at least one of the trust levels.</li>
+        <li>Уровни доверия позволяют автоматически управлять группами в зависимости от активности участника форума.</li>
+        <li>Каждый из уровней доверия определяет параметры, которым необходимо соответствовать (например, количество созданных дискуссий, опубликованных сообщений, и т.п.), и группу участника.</li>
+        <li>Пользователи автоматически добавляются в группы уровней доверия, параметрам которых они соответствуют.</li>
+        <li>Так как управления группами происходит автоматически, мы рекомендуем создать отдельный набор групп для уровней доверия.</li>
+        <li>Если Вы удаляете уровень доверия, Вы также должны удалить связанную с ним группу. Иначе, пользователи с удалённым уровнем доверия останутся в этой группе.</li>
+        <li>Во избежания ошибок, редактирование группы уровня доверия недоступно.</li>
+        <li>Отключённые диапазоны параметров не учитываются. Если все диапазоны параметров отключены для уровня доверия, ВСЕ пользователи получат этот уровень.</li>
+        <li>Если группа управляется несколькими уровнями доверия, пользователь будет добавлен в эту группу при соответствии хотя бы одному уровню доверия.</li>
   forum:
     edit_user:
-      trust_levels_heading: Trust Levels
-      trust_level_item: "<badge></badge> {level} (Manages group: {groupName})"
-      trust_levels_not_editable: Trust levels, and groups managed by trust levels, cannot be edited manually to prevent inconsistencies.
+      trust_levels_heading: "Уровни доверия"
+      trust_level_item: "<badge></badge> {level} (Группа: {groupName})"
+      trust_levels_not_editable: "Уровни доверия и группы, управляемые этими уровнями, недоступны для ручного редактирования во избежание несоответствий."
