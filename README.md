@@ -27,6 +27,15 @@ composer update marketplace/flarum-l10n-ext-russian
 php flarum cache:clear
 ```
 
+## Удаление
+
+Для удаления локализации необходимо выполнить следующие команды:
+
+```
+composer remove marketplace/flarum-l10n-ext-russian
+php flarum cache:clear
+```
+
 ## Пожертвование
 
 - [Donation Form](https://donation-form.github.io/)
