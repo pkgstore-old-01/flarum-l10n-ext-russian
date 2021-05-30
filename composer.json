@@ -19,16 +19,6 @@
       "email": "kitsune.solar@gmail.com",
       "homepage": "https://kitsune.solar",
       "role": "Translator"
-    },
-    {
-      "name": "towuk118",
-      "homepage": "https://vk.com/towuk118",
-      "role": "Translator"
-    },
-    {
-      "name": "dexif",
-      "homepage": "https://spitsyn.net/",
-      "role": "Translator"
     }
   ],
   "support": {
@@ -40,11 +30,11 @@
   "funding": [
     {
       "type": "website",
-      "url": "https://donation-form.github.io/"
+      "url": "https://kitsune.solar/ru/donate/"
     }
   ],
   "require": {
-    "flarum/core": "^0.1.0-beta.15"
+    "flarum/core": "^1.0"
   },
   "suggest": {
     "flarum/flarum": "Flarum",
