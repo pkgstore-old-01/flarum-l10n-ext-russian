@@ -38,4 +38,4 @@ php flarum cache:clear
 
 ## Пожертвование
 
-- [Donation Form](https://donation-form.github.io/)
+- [Donation Form](https://kitsune.solar/ru/donate/)
