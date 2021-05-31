@@ -35,7 +35,3 @@ php flarum cache:clear
 composer remove marketplace/flarum-l10n-ext-russian
 php flarum cache:clear
 ```
-
-## Пожертвование
-
-- [Donation Form](https://kitsune.solar/ru/donate/)

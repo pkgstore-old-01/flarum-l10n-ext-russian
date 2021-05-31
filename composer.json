@@ -3,7 +3,7 @@
   "description": "Flarum Extensions Russian language pack.",
   "type": "flarum-extension",
   "license": "MIT",
-  "homepage": "https://github.com/marketplace-flarum",
+  "homepage": "https://pkgstore.github.io/",
   "keywords": [
     "extension",
     "flarum",
@@ -22,9 +22,9 @@
     }
   ],
   "support": {
-    "source": "https://github.com/marketplace-flarum/flarum-l10n-ext-russian",
-    "issues": "https://github.com/marketplace-flarum/flarum-l10n-ext-russian/issues",
-    "docs": "https://github.com/marketplace-flarum/flarum-l10n-ext-russian/blob/main/README.md",
+    "source": "https://github.com/pkgstore/flarum-l10n-ext-russian",
+    "issues": "https://github.com/pkgstore/flarum-l10n-ext-russian/issues",
+    "docs": "https://github.com/pkgstore/flarum-l10n-ext-russian/blob/main/README.md",
     "forum": "https://discuss.flarum.org/d/1545"
   },
   "funding": [
@@ -45,7 +45,7 @@
       "title": "Русский (EXT)",
       "info": {
         "donate": "https://donation-form.github.io/",
-        "website": "https://github.com/marketplace-flarum",
+        "website": "https://github.com/pkgstore",
         "support": "https://discuss.flarum.org/d/1545"
       },
       "icon": {
