@@ -1,4 +1,3 @@
-ko_fi: "marketplace"
-liberapay: "marketplace"
-patreon: "marketplace"
-custom: "https://donation-form.github.io"
+ko_fi: "pkgstore"
+liberapay: "pkgstore"
+patreon: "pkgstore"
